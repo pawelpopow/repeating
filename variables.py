@@ -11,8 +11,8 @@ class Variables:
     def download_private1(self):
         return self.__private1
 
-    def change_private1(self, nowa_wart):  # zmieniamy dwie waratości
-        self.__private1 = nowa_wart
+    def change_private1(self, new_value):  # zmieniamy dwie waratości
+        self.__private1 = new_value
         self.__private_double = self.__private1 * 2
 
 
