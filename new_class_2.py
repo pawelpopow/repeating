@@ -1,5 +1,5 @@
 class Employee:
-    '所有员工的基类'
+    'Employee'
     empCount = 0
 
     def __init__(self, name, salary):
@@ -15,11 +15,10 @@ class Employee:
 
 
 if __name__ == '__main__':
-    "创建 Employee 类的第一个对象"
+    "Employee"
     emp1 = Employee("Zara", 2000)
-    "创建 Employee 类的第二个对象"
+    "Employee"
     emp2 = Employee("Manni", 5000)
     emp1.displayEmployee()
     emp2.displayEmployee()
-    print
-    "Total Employee %d" % Employee.empCount
+    print("Total Employee %d" % Employee.empCount)
